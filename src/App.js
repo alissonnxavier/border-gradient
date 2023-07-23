@@ -6,7 +6,11 @@ function App() {
     <div className='h-screen'>
       <div className=' flex justify-center mt-52'>
         <div className='flex justify-center p-1 m-3 w-20 shine-border rounded-full'>
-          <div className='cursor-pointer rounded-full bg-black text-white text-5xl w-full h-max flex justify-center m-auto align-middle'>
+          <div className='
+          cursor-pointer rounded-full bg-black
+           text-white text-5xl w-full h-max flex justify-center
+            m-auto align-middle drop-shadow-2xl hover:drop-shadow-xl'
+            >
             ola
           </div>
         </div>

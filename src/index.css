@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .shine-border {
-    animation: gradient 1s reverse linear infinite;
+    animation: gradient 1s linear infinite ;
     background: linear-gradient(3333330deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #6fba82);
     background-size: 50%;
     left: 0;
@@ -25,9 +25,9 @@
 }
 
 .shine-border:hover {
-    animation: gradient 0.5s reverse linear infinite;
+    animation: gradient 0.2s linear infinite;
     background: linear-gradient(3333330deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #6fba82);
-    background-size: 30%;
+    background-size: 50%;
     left: 0;
     top: 0;
 }
@@ -37,11 +37,11 @@
         background-position: 100% ;
     }
 
-    /* 50% {
+    /*  50% {
         background-position: 100% 50%;
     }
 
     100% {
         background-position: 0% 50%;
-    } */
+    }  */
 }
